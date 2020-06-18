@@ -5,4 +5,8 @@
     $line3 = readline("Tweede getal? ");
     echo "Uw resultaat is: ";  
     $uitkomst = readline($line2 * $line3);
+
+
+
+    
 ?>
