@@ -5,22 +5,29 @@
 </head>
 <body>
 
-	<?php 
+	
 
 
 
-        $line = readline("ik ga twee getalen met elkaar vermenigvuldigen.");
-	$line = readline("Wat is het eerste getal? ");
-        $line = readline("Wat is het tweede getal? ");
-        $line = readline("Het antwoord is: $line * $line");
-        readline_add_history($line);
+  <?php
+
+
+      $line1 = readline("Ik ga twee getallen met elkaar vermenigvuldigen ");
+    $line2 = readline("Eerste getal? ");
+    $line3 = readline("Tweede getal? ");
+    $line4 = readline("Uw resultaat is: ");
+    $uitkomst = readline($line2 * $line3);
+    readline_add_history($line);
+
+
+?>
 
 
 
 
 
 
-	 ?>
+	
 
 
 
