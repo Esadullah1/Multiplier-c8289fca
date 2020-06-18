@@ -9,11 +9,10 @@
 
 
 
-        $line1 = readline("ik ga twee getalen met elkaar vermenigvuldigen.");
-	 	$line2 = readline("Wat is het eerste getal? ");
-        $line3 = readline("Wat is het tweede getal? ");
-        $line4 = readline("Het antwoord is: $line5"); 
-        $line5 = readline($line2 * $line3);
+        $line = readline("ik ga twee getalen met elkaar vermenigvuldigen.");
+	$line = readline("Wat is het eerste getal? ");
+        $line = readline("Wat is het tweede getal? ");
+        $line = readline("Het antwoord is: $line * $line");
         readline_add_history($line);
 
 
